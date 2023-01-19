@@ -8,7 +8,7 @@
 
 <p1>We can answer this question by making a Monte Carlo simulation. In this example I used the world cup sticker album 2022 to run a simulation. The album has 670 stickers and each sticker costs R$ 0,80. The costs are estimated in the brazilian real (BRL), but the only adjustment you have to do to change it to your country's currency it's to set the price of the sticker. </p1>
 
-<p1>The idea behind the simulation is to sort numbers representing the stickers till we get the 670 different ones, count how many stickers we needed to complete the task, do it 1000 times and then analyses the data to see what we got. </p1>
+<p1>The idea behind the simulation is to randomly select numbers representing the stickers till we get the 670 different ones, count how many stickers we needed to complete the task, do it 1000 times and then analyses the data to see what we got. </p1>
 
 <h3>Analysing the data</h3>
 
@@ -33,6 +33,6 @@ supported by a much more robust method. </p1>
 
 <img src=/static/b_1000.png>
 
-<p1>⚠️  This script considers that every sticker has the same chance to be sorted.</p1>
+<p1>⚠️  This script considers that every sticker has the same chance to be picked.</p1>
 
 </div>
